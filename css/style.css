@@ -12,8 +12,8 @@
     font-size: 0.9rem;
   }
 
-  .navbar-toggler {
-    color: #FFFFFF;
+  .navbar-brand img {
+    width: 400px;
   }
 
   .banner-sidebar {
@@ -70,4 +70,20 @@
   
   .whatsapp-icon {
     margin-top:13px;
+  }
+
+
+  @media (max-width: 640px){
+ 
+    .navbar-brand img {
+      width: 240px;
+    }
+
+    footer {
+      font-size: 0.9rem;
+    }
+
+    .carousel-item img {
+      height: 130px;
+    }
   }
