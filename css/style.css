@@ -1,0 +1,73 @@
+.navbar {
+    background: #005C97;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: aliceblue;
+    padding: 0 0 0 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+
+  .navbar-toggler {
+    color: #FFFFFF;
+  }
+
+  .banner-sidebar {
+    margin: 5px 0 5px 0;
+  }
+  .banner-sidebar img {
+    border-radius: 5px;
+  }
+
+  .destacados {
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .destacados:hover {
+    color:#363795;
+  }
+
+  .tarjetas {
+    margin-top: 30px;
+  }
+
+  footer {
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    margin-top: 45px;
+    padding-top: 45px;
+    padding-bottom: 55px;
+    
+  }
+
+  footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
