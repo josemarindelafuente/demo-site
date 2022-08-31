@@ -23,6 +23,12 @@
     border-radius: 5px;
   }
 
+  .imagen-cell-homw {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
   .destacados {
     background: #ECE9E6; 
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
@@ -80,8 +86,22 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
       width: 240px;
     }
 
+    .imagen-cell-homw {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+
     footer {
       font-size: 0.9rem;
+    }
+
+    .footer-colum-01, .footer-colum-02, .footer-colum-03 {
+      padding-bottom: 30px;
+    }
+
+    #carousel-ind {
+      display: none;
     }
 
     .carousel-item img {
